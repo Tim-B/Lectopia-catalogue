@@ -18,7 +18,13 @@
 		<?php echo $content; ?>
 	</div>
 	<div class="footer">
-		Powered by <a href="http://www.yiiframework.com/">Yii</a>.
+		<div class="footerleft">
+			<a href="https://github.com/Tim-B/Lectopia-catalogue"><img src="images/github-logo.png" alt="GitHub" /></a>
+		</div>
+		<div class="footerright">
+			Powered by <a href="http://www.yiiframework.com/" target="_blank">Yii</a>.
+		</div>
+		<div class="clear"></div>
 	</div>
 </body>
 </html>

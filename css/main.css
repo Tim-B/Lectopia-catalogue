@@ -30,6 +30,25 @@ body{
 	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: right;
+	margin-bottom: 30px;
 }
 
+.footerleft{
+	float: left;
+	width: 150px;
+}
+
+.footerright{
+	float: right;
+	width: 200px;
+	text-align: right;
+	margin-top: 3px;
+}
+
+.clear{
+	clear: both;
+}
+
+img{
+	border: 0;
+}
