@@ -32,7 +32,7 @@ class SiteController extends Controller
 		
 		$lectopia = New lectopiaCheck();
 		
-		for($i = $count; $i < $count + 10; $i++){
+		for($i = $count; $i < $count + 2; $i++){
 			
 			if(Lectures::byLecID($i) == Null){
 			
@@ -72,7 +72,7 @@ class SiteController extends Controller
 			Settings::saveSetting('count', 0);
 			Settings::saveSetting('nextrun', time() + (7 * 24 * 60 * 60));
 		}else{
-			Settings::saveSetting('count', $count + 10);
+			Settings::saveSetting('count', $count + 2);
 			Settings::saveSetting('nextrun', time());
 		}
 		

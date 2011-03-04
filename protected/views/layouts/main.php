@@ -12,7 +12,7 @@
 
 <body>
 	<div class="header">
-		<h1>Lectopia Catalogue</h1>
+		<h1>UQ Lectopia Catalogue</h1>
 	</div>
 	<div class="content">
 		<?php echo $content; ?>

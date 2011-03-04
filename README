@@ -1,0 +1,22 @@
+===Licence===
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+===Install===
+1. Upload the files to your web server.
+2. Create a database from the image in the database file
+3. Set the MySQL config settings in /protected/config/main.php
+4. Set a cron job on your server to run crawl.php, here is an example cron command that can be used in cPanel: /home/lectopia/public_html/crawl.php, I suggest you run it on a 1 or 2 minute interval.
+
+===Demo===
+Visit http://lectopia.n00blife.com
