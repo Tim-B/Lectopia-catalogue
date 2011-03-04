@@ -15,10 +15,6 @@ return array(
 		'application.components.*',
 	),
 
-	'modules'=>array(
-	
-	),
-
 	// application components
 	'components'=>array(
 
@@ -39,10 +35,4 @@ return array(
         ),
 	),
 
-	// application-level parameters that can be accessed
-	// using Yii::app()->params['paramName']
-	'params'=>array(
-		// this is used in contact page
-		'adminEmail'=>'tim@galacticcode.com',
-	),
 );
