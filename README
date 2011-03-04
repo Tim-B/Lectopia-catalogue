@@ -14,9 +14,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ===Install===
 1. Upload the files to your web server.
-2. Create a database from the image in the database file
-3. Set the MySQL config settings in /protected/config/main.php
-4. Set a cron job on your server to run crawl.php, here is an example cron command that can be used in cPanel: /home/lectopia/public_html/crawl.php, I suggest you run it on a 1 or 2 minute interval.
+2. Download the Yii PHP framework from http://www.yiiframework.com/
+3. Extact Yii to a location on your server.
+4. Open index.php and set the $yii variable to the location of the Yii framework folder.
+5. Create a database from the image in the database file
+6. Set the MySQL config settings in /protected/config/main.php
+7. Set a cron job on your server to run crawl.php, here is an example cron command that can be used in cPanel: /home/lectopia/public_html/crawl.php, I suggest you run it on a 1 or 2 minute interval.
 
 ===Demo===
 Visit http://lectopia.n00blife.com
